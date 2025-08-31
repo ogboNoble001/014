@@ -71,6 +71,7 @@ nav {
   margin-top: 2.2em;
   flex-direction: column;
   gap: .8em;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .diff1{
@@ -142,6 +143,9 @@ height: 25px;
 .mediumIcn{
   width: 30px;
   height: 30px;
+}
+.active{
+  width: fit-content;
 }
 .active::after {
   content: " ";
@@ -231,4 +235,7 @@ img{
 }
 .noShrink{
   flex: 0 0 auto;
+}
+.diff11{
+  font-size: small;
 }
