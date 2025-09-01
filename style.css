@@ -56,12 +56,12 @@ overflow-y: scroll;
 }
 
 .mainBody {
-  margin-left: auto;
  
+ overflow-y: scroll;
   display: none;
   padding: .9em 0 0 .8em ;
   height: 100%;
- width: 80%;
+ width: 100%;
   border-top-left-radius: 32px;
   background-color: #1C1D23;
  
@@ -69,12 +69,11 @@ overflow-y: scroll;
 }
 
 nav {
-  position: fixed;
-  left: 0;
+  overflow-y: scroll;
   width: 30%;
   display: none;
   height: 100%;
-  padding: 0 .3em 0 0;
+  padding: 0 0 0 1em;
   margin-top: 1.5em;
   margin-right: auto;
   align-items: flex-start;
@@ -227,8 +226,13 @@ img{
   border: none;
 }
 #FiveAndMore::after{
+  content: "147";
+  border-radius: 12px;
+  font-family: "Poppins",sans-serif;
+  font-weight: bolder;
+  padding: .8em;
+  font-size: x-small;
   background-color: tomato;
- 
  display: flex;
  justify-content: center;
  align-items: center;
