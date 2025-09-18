@@ -241,7 +241,6 @@ img{
  align-items: center;
 }
 .diff10{
-  
   white-space: nowrap;         
   overflow: hidden;    
   text-overflow: ellipsis; 
@@ -255,4 +254,11 @@ img{
 }
 .diff12{
   overflow-y: scroll;
+}
+.horz-Scroll{
+        width: 100%;
+        overflow-x: scroll;
+}
+.width-100{
+        width: 100%;
 }
